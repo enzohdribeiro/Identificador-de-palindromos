@@ -27,9 +27,3 @@ Programa em C que verifica se uma string fornecida pelo usuário é um palíndro
 - Compara o primeiro com o último caractere, o segundo com o penúltimo, e assim sucessivamente
 - Realiza apenas n/2 comparações, onde n é o tamanho da string
 - Retorna 1 para palíndromo e 0 para não palíndromo
-
-## Como compilar e executar
-
-```bash
-gcc palindromo.c -o palindromo
-./palindromo
