@@ -1,6 +1,6 @@
 # Identificador de Palíndromos
 
-Programa em C que verifica se uma string fornecida pelo usuário é um palíndromo (lê-se igual de trás para frente, desconsiderando diferenças entre maiúsculas e minúsculas).
+Programa em C que verifica se uma string fornecida pelo usuário é um palíndromo (lê-se igual de trás para frente, desconsiderando diferenças entre maiúsculas e minúsculas, exemplo: ovo;osso)
 
 ## Funcionalidades
 
