@@ -52,16 +52,23 @@ char* criaTexto(){
 int main(){
   char* texto;
   int n; //quantidade de caracteres
-  bool pal; // 0 = não é palíndromo ; 1 = palíndromo
+  bool pal; // pal = 0 -> não é palíndromo ; pal = 1 -> é palíndromo
 
   printf("Esse programa identifica palíndromos.\n");
-  printf("Insira uma palavra à ser identificada:\n");
-  texto = criaTexto();
-  n = contagem(texto);
 
-  pal = palindromo(texto, n);
-  if(pal == 1) printf("Palíndromo!\n");
-  else printf("Não é um palíndromo :(\n");
+  while (1==1){
+    printf("Insira uma palavra à ser identificada ou 0 (zero) para sair do programa:\n");
+    texto = criaTexto();
+    if(texto[0] == '0' && texto[1] == '\0'){ 
+      printf("Encerrando o programa.");
+      break;
+      }
+    n = contagem(texto);
+
+    pal = palindromo(texto, n);
+    if(pal == 1) printf("Palíndromo!\n");
+    else printf("Não é um palíndromo :(\n");
+  }
 
   return 0;
 }
