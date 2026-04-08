@@ -7,6 +7,7 @@ Programa em C que verifica se uma string fornecida pelo usuário é um palíndro
 - Leitura dinâmica da entrada do usuário sem limite pré-definido de caracteres
 - Alocação de memória flexível que se adapta ao tamanho da string fornecida
 - Verificação eficiente comparando apenas metade dos caracteres
+- Loop contínuo permitindo múltiplas verificações e saída do programa quando solicitado
 
 ## Principais componentes
 
@@ -27,3 +28,8 @@ Programa em C que verifica se uma string fornecida pelo usuário é um palíndro
 - Compara o primeiro com o último caractere, o segundo com o penúltimo, e assim sucessivamente
 - Realiza apenas n/2 comparações, onde n é o tamanho da string
 - Retorna 1 para palíndromo e 0 para não palíndromo
+
+  ### Gerenciamento de memória
+
+- Liberação da memória alocada a cada iteração com `free(texto)`
+- Previne vazamento de memória durante execução prolongada
