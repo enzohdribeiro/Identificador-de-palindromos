@@ -68,6 +68,7 @@ int main(){
     pal = palindromo(texto, n);
     if(pal == 1) printf("Palíndromo!\n");
     else printf("Não é um palíndromo :(\n");
+    free(texto);
   }
 
   return 0;
