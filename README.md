@@ -1,5 +1,7 @@
 # Identificador de Palíndromos
+
 Atividade proposta pelo professor Luciano A. Digiampietri em Introdução à Programação.
+
 Programa em C que verifica se uma string fornecida pelo usuário é um palíndromo (lê-se igual de trás para frente, desconsiderando diferenças entre maiúsculas e minúsculas, exemplo: ovo;osso)
 
 ## Funcionalidades
